@@ -34,18 +34,3 @@ Web. [ehudadler.com](www.ehudadler.com)
 |<img src="http://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-python-icon.png" width="20" height="20">| Python | Intermediate |
 |<img src="https://image.flaticon.com/icons/svg/226/226777.svg" width="20" height="20">| Java | Intermediate |
 |<img src="http://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="20" height="20">| Git/Version Control | Comfortable |
-
-
-
-Where do you live
-
-How much longer of college
-
-Full time vs Part time/Contractor
-
-What exactly you did for the devops team
-
-React/ React native
-
-
-
