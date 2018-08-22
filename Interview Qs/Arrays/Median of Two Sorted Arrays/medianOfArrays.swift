@@ -20,7 +20,9 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
 }
 
 extension Array where Element == Int {
+  
   func mergeSorted(with arr: [Int]) -> [Int] {
+    
     var runner1 = 0, runner2 = 0
     var merged = [Int]()
     while runner1 < self.count && runner2 < arr.count {
@@ -38,6 +40,7 @@ extension Array where Element == Int {
     while runner2 < arr.count {
       merged.append(arr[runner2.postIncrement()])
     }
+    
     return merged
   }
   
