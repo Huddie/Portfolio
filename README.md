@@ -44,3 +44,4 @@ Web. [ehudadler.com](http://www.ehudadler.com)
 |Coming soon...| Simple Blogger | A shell/php backed package that allows for automation in the blogging process <br>Quickly build blog templates, review blogs given a rule set and post to your favorite platform! |
 
 
+###### Written by me with ❤️
