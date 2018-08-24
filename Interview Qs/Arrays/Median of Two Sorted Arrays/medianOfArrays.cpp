@@ -1,3 +1,18 @@
+// Ehud Adler
+// 8.23.18
+//
+// Median
+// https://leetcode.com/problems/median-of-two-sorted-arrays
+// Runtime: 16ms
+//
+
+
+static const auto io_sync_off = []() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return nullptr;
+}();
+
 class Solution {
     
 vector<int> merge(const vector<int>&,const  vector<int>&);
