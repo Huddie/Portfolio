@@ -7,7 +7,7 @@ Web. [ehudadler.com](http://www.ehudadler.com)
 
 |   |Institution |Degrees|Started|Graduated|
 |---|---|---|---|---|
-|<img src="https://specials-images.forbesimg.com/imageserve/55ae8644e4b05c2c343212e5/300x300.jpg?fit=scale&background=000000" width="30" height="30"> | Queens College, CUNY | B.S Computer Science<br> B.A Applied Mathematics|2017| Est. 2018|
+|<img src="https://specials-images.forbesimg.com/imageserve/55ae8644e4b05c2c343212e5/300x300.jpg?fit=scale&background=000000" width="40"> | Queens College, CUNY | B.S Computer Science<br> B.A Applied Mathematics|2017| Est. 2019|
 
 
 ### Current Status
@@ -39,6 +39,6 @@ Web. [ehudadler.com](http://www.ehudadler.com)
 
 |   | Name | Blurb | Found at | 
 |---|---|---|---|
-|<img src="https://qcxchange.com/uploads/default/original/1X/aac024e7689e55738dd2004eaf80790b815d1c83.png" width="40">| QCXhange | QCX is a forum open to all Queens College students.<br> At QCX you can get help from a professor, tutor or fellow student. | [Website](https://www.qcxchange.com)
-|| Simple Blogger | A php backed package that allows for automation in the blogging process <br>Quickly build blog templates, review blogs given a rule set and post to your favorite platform! |
-|<img src="https://github.com/Huddie/Siddur/blob/master/Siddur/UI/Images/Logo.png" width="20" height="20">| Simple Siddur | Intermediate | 
+|<img src="https://qcxchange.com/uploads/default/original/1X/aac024e7689e55738dd2004eaf80790b815d1c83.png" width="40">| QCXchange | QCX is a forum open to all Queens College students.<br> At QCX you can get help from a professor, tutor or fellow student. | [Website](https://qcxchange.com)
+|Coming soon...| Simple Blogger | A php backed package that allows for automation in the blogging process <br>Quickly build blog templates, review blogs given a rule set and post to your favorite platform! |
+|<img style="border-radius: 7px;" src="https://github.com/Huddie/Siddur/blob/master/Siddur/UI/GenericAppIcon/AppIcon.jpg" width="20" height="20">| Simple Siddur | A religious prayer app with a DAU count of ~800-900. | [iTunes](https://itunes.apple.com/us/app/simple-siddur/id792359433)
