@@ -23,28 +23,27 @@
 #include <vector>
 #include <iterator>
 
-
-/************** typedefs ******************************/
-
 typedef std::vector < std::vector<char> > vecVector;
-
-/************** Macros ********************************/
 
 #define repeat(n) for(int _x = 0; _x < n; ++_x)
 #define forever() while(true)
 
-/************** Funcs ********************************/
-
-bool search(const std::string,
+bool search(
+  const std::string,
   const unsigned int&, const unsigned int&,
   const vecVector&,
   const unsigned int &,
-  const unsigned int &);
+  const unsigned int &
+  );
   
-void find_first_letter(const vecVector&, const std::string, const unsigned int &, const unsigned int &);
-void findWaldorf();
+void find_first_letter(
+  const vecVector&, 
+  const std::string, 
+  const unsigned int &, 
+  const unsigned int &
+  );
 
-/************** Program ******************************/
+void findWaldorf();
 
 /// Main hands off the workload to find waldorf function
 
@@ -58,51 +57,50 @@ int main() { findWaldorf(); }
 /// many times, each loop taking in a string and passing it into the find_first_letter
 /// function 
 
-void findWaldorf () 
-{
+void findWaldorf () {
   
-  /**** Declare Variables ****/
   int number_of_inputs,
   number_of_rows,
   number_of_columns,
   number_of_strings;
   
-  /**** Initialize Variables ****/
   number_of_inputs = number_of_rows = number_of_columns = number_of_strings = 0;
   
-  std::cin >> number_of_inputs; // Get number of inputs
+  std::cin >> number_of_inputs; 
   
   vecVector matrix;
 
-  repeat(number_of_inputs) // Repeat for all number of inputs
-  {
+  repeat(number_of_inputs) {
 
-    // Get rows & columns
-    std::cin  >> number_of_rows;               // Rows
-    std::cin  >> number_of_columns;            // Columns
+    std::cin >> number_of_rows;               
+    std::cin >> number_of_columns; 
 
-    /************************************/
+    matrix.clear(); 
+    matrix.resize(
+      number_of_columns, 
+      std::vector<char>(number_of_rows, 0)
+    );
     
-    matrix.clear();                            // Clear matrix
-    matrix.resize( number_of_columns , std::vector<char>( number_of_rows , 0 ) );
-    
-    repeat(number_of_rows)
-    {
+    repeat(number_of_rows) {
       std::string line;
       std::cin >> line;
       for(unsigned int c = 0; c < number_of_columns; c += 1) matrix[c][_x] = line[c];
     }
-    std::cin  >> number_of_strings;            // Number of strings to find
-    
-    std::cout << std::endl;                    // Prep
-    
-    repeat(number_of_strings)
-    {
+
+    std::cin  >> number_of_strings;           
+    std::cout << std::endl; 
+  
+    repeat(number_of_strings) {
       std::string line;
       std::cin >> line;
-      find_first_letter(matrix, line, number_of_rows, number_of_columns);
-    }
 
+      find_first_letter(
+        matrix, line,
+        number_of_rows,
+        number_of_columns
+      );
+
+    }
   }
 }
 
@@ -113,16 +111,18 @@ void findWaldorf ()
 /// If the word exists, it prints the starting cord.
 /// Once it loops through all possible strings, it exits the program.
 
-void find_first_letter(const vecVector& matrix, const std::string s,
-                              const unsigned int& rows, const unsigned int& cols)
-{
+void find_first_letter(
+  const vecVector& matrix,
+  const std::string s,
+  const unsigned int& rows,
+  const unsigned int& cols) {
+
     for (unsigned int row = 0; row < rows; row += 1)
           for (unsigned int item = 0; item < cols; item += 1)
-              if(tolower(matrix[item][row]) == tolower(s[0]))         // Found a matching first letter
-                  if(search(s, row, item, matrix, rows, cols))
-                  {
-                    std::cout << row+1 << ' ' << item+1 << std::endl; // Print ROW COL
-                    return; // Return
+              if(tolower(matrix[item][row]) == tolower(s[0]))         
+                  if( search(s, row, item, matrix, rows, cols) ) {
+                    std::cout << row+1 << ' ' << item+1 << std::endl;
+                    return;
                   }
 }
 
@@ -136,9 +136,14 @@ void find_first_letter(const vecVector& matrix, const std::string s,
 /// 
 /// -returns: bool 
 
-bool search(const std::string s, const unsigned int& row, const unsigned int& col,
-                                 const vecVector& matrix, const unsigned int& rows, const unsigned int& cols)
-{
+bool search(
+  const std::string s, 
+  const unsigned int& row, 
+  const unsigned int& col,
+  const vecVector& matrix, 
+  const unsigned int& rows, 
+  const unsigned int& cols) {
+
                   //  R  C
   int dirs[8][2] = {{ 0, 1},  // UP
                     { 1, 1},  // UP_RIGHT
@@ -149,26 +154,26 @@ bool search(const std::string s, const unsigned int& row, const unsigned int& co
                     {-1, 0},  // LEFT
                     {-1, 1}}; // UP_LEFT
                     
-  
-  for (auto dir : dirs){  // Loop through all directions
+  for (auto dir : dirs) { 
+    int index = 0;
+    int test_row = row;
+    int test_col = col;
     
-    int index      = 0;
-    int test_row   = row;
-    int test_col   = col;
-    
-    forever()             // INF loop until match is found or invalid char 
-    {
+    forever() {
       
-      if (test_row > rows || test_col > cols || test_col < 0 || test_row < 0) break; // Safe check
+      if ( test_row > rows 
+        || test_col > cols 
+        || test_col < 0 
+        || test_row < 0) break; 
       
-      char test_char = matrix[test_col][test_row];            // Get char
-      if(tolower(s[index]) != tolower(test_char)) break;      // Converted to lower and check if chars are mismatched -> Break
-      else if (index == s.size() - 1) return true;            // Check if we have hit the last char in the string -> return true
+      char test_char = matrix[test_col][test_row];            
+      if(tolower(s[index]) != tolower(test_char)) break;      
+      else if (index == s.size() - 1) return true;            
       
-      test_row    += dir[0];                                  // Shift row
-      test_col    += dir[1];                                  // Shift column
-      index       += 1;
-  
+      test_row += dir[0];                                 
+      test_col += dir[1];                                  
+      index += 1;
+
     }
   }
   return false;
