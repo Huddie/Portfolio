@@ -11,15 +11,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node 
-{
+typedef struct node  {
    void *data;
    struct node *next;
    struct node *previous_minimum;
 }node;
 
-typedef struct list 
-{
+typedef struct list {
   struct node *head;
   struct node *tail;
   struct node *min;

@@ -4,55 +4,46 @@
 
 typedef int (* in_comparator)(void *, void *);
 
-int compareInt(void *firstvp, void *secondvp)
-{
+int compareInt(void *firstvp, void *secondvp) {
     int first_int  = *(int *)firstvp;
     int second_int = *(int *)secondvp;
 
-    if(first_int > second_int)
-    {
+    if(first_int > second_int) {
         return 1;
     }
-    else if(second_int > first_int)
-    {
+    else if(second_int > first_int) {
         return -1;
-    }
-    else
-    {
+    } else {
         return 0;
     }
 }
 
-
-int main (void) 
-{
+int main (void) {
     
-
-    // list *stack = list_init(&compareInt);
+    list *stack = list_init(&compareInt);
     
-    // int one   = 3;
-    // int two   = 2;
-    // int three = 1;
-    // int four  = 5;
+    int one   = 3;
+    int two   = 2;
+    int three = 1;
+    int four  = 5;
 
-    // void *vone   = &one;
-    // void *vtwo   = &two;
-    // void *vthree = &three;
-    // void *vfour  = &four;
+    void *vone = &one;
+    void *vtwo = &two;
+    void *vthree = &three;
+    void *vfour  = &four;
     
-    // append(vone,stack);
-    // append(vtwo,stack);
-    // append(vthree,stack);
-    // append(vfour,stack);
+    append(vone,stack);
+    append(vtwo,stack);
+    append(vthree,stack);
+    append(vfour,stack);
     
-    // remove_start(stack);
-    // remove_start(stack);
-    // remove_start(stack);
-    // remove_start(stack);
+    remove_start(stack);
+    remove_start(stack);
+    remove_start(stack);
+    remove_start(stack);
 
-    // list_deinit(stack);
-
-
+    list_deinit(stack);
+    
     return 0;
     
 }
