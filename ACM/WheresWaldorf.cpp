@@ -43,7 +43,7 @@ void find_first_letter(
   const unsigned int &
   );
 
-void findWaldorf();
+void findWaldorf(void);
 
 /// Main hands off the workload to find waldorf function
 
@@ -57,7 +57,7 @@ int main() { findWaldorf(); }
 /// many times, each loop taking in a string and passing it into the find_first_letter
 /// function 
 
-void findWaldorf () {
+void findWaldorf (void) {
   
   int number_of_inputs,
   number_of_rows,
