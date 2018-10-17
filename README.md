@@ -1,6 +1,5 @@
 # Ehud Adler 
 Email. [me@ehudadler.com](me@ehudadler.com)
-Phone. [201-621-2362](201-621-2362)
 Web. [ehudadler.com](http://www.ehudadler.com)
 
 ### Education
@@ -13,7 +12,7 @@ Web. [ehudadler.com](http://www.ehudadler.com)
 ### Current Status
 |   | Course Work | Status |
 |---|---|---|
-|🔢| Calculus I, II | ☑️ Complete |
+|🔢| Calculus I, II | ☑️Phone Complete |
 |🔢| Linear Algebra | ☑️ Complete |
 |👨‍💻| Discrete Structures | ☑️ Complete |
 |🔢| Number Theory | ☐ Enrolled |
