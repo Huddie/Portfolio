@@ -12,7 +12,7 @@ Web. [ehudadler.com](http://www.ehudadler.com)
 ### Current Status
 |   | Course Work | Status |
 |---|---|---|
-|🔢| Calculus I, II | ☑️Phone Complete |
+|🔢| Calculus I, II | ☑️ Complete |
 |🔢| Linear Algebra | ☑️ Complete |
 |👨‍💻| Discrete Structures | ☑️ Complete |
 |🔢| Number Theory | ☐ Enrolled |
