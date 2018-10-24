@@ -1,6 +1,5 @@
 # Ehud Adler 
 Email. [me@ehudadler.com](me@ehudadler.com)
-Phone. [201-621-2362](201-621-2362)
 Web. [ehudadler.com](http://www.ehudadler.com)
 
 ### Education
