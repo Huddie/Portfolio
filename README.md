@@ -53,14 +53,14 @@ Blog. [blog.ehudadler.com](http://www.blog.ehudadler.com)
 ##### Projects I've contributed to
 
 |   | Project | Contribution |
-|---|---|---|---|
+|---|---|---|
 |<img src="https://www.shareicon.net/download/2016/07/08/117368_apple_512x512.png" width="60">| Swift Compiler |  Currently working on SR-8536, helping the compiler warn developers when trying to assign self to itself.|<img style="border-radius: 10px;overflow=hidden" src="https://github.com/Huddie/Siddur/blob/master/Siddur/UI/GenericAppIcon/AppIcon.jpg" width="40">| Simple Siddur | A religious prayer app with a DAU count of 800-900. 
 | <img src="https://github.com/GitHawkApp/GitHawk/raw/master/Resources/Assets.xcassets/splash.imageset/splash%403x.png" width=100>| GitHawk| An open source github client. I've made and continue to make contributions and have participate in code reviews and discussion. 
 
 ##### Projects I've opened sourced
 
 |   | Project | Contribution |
-|---|---|---|---|
+|---|---|---|
 | <img src="https://github.com/Huddie/Grade-Notifier/raw/master/Assets/GN-Logo.png" width=100>| Grade-Notifier| I opened sourced this project so that it could continue to be maintained for years after I leave my school and so that students at my college could participate in a project. |
 | ⚡️| Jumpstarter | I open sourced this project because I knew the community could make it into a greater tool than I could alone.
 
