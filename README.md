@@ -10,19 +10,27 @@ Blog. [blog.ehudadler.com](http://www.blog.ehudadler.com)
 |<img src="https://specials-images.forbesimg.com/imageserve/55ae8644e4b05c2c343212e5/300x300.jpg?fit=scale&background=000000" width="40"> | Queens College, CUNY | B.S Computer Science<br> B.A Applied Mathematics|2017| Est. 2019|
 
 
-### Current Status
+### Studies
 |   | Course Work | Status |
 |---|---|---|
-|🔢| Calculus I, II, Multi-Var | ☑️ Complete |
+|🔢| Calculus I, II, III | ☑️ Complete |
 |🔢| Linear Algebra | ☑️ Complete |
 |👨‍💻| Discrete Structures | ☑️ Complete |
 |🔢| Number Theory |  ☑️ Complete |
-|👨‍💻| Problem Solving |  ☑️ Complete |
+|🔢| Problem Solving |  ☑️ Complete |
 |👨‍💻| Data Structures |  ☑️ Complete |
 |👨‍💻| Theory  of  Computation | ☑️ Complete |
 |👨‍💻| Algorithms | ☐ Enrolled |
 |🔢| Abstract Algebra  | ☐ Enrolled |
+|👨‍💻| Cryptography  | ☐ Enrolled |
+|👨‍💻| Databases  | ☐ Enrolled |
 
+### Experience
+
+|  | Company | Location | Job | Dates |
+|---|---|---|---|---|
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/600px-Apple_logo_black.svg.png" width="20"> | Apple | Cupertino | Software Engineering Intern | May 28, 2019 - August 13, 2019 |
+| <img src="https://media.licdn.com/dms/image/C4E0BAQGUcgeXz3vAaw/company-logo_400_400/0?e=1562803200&v=beta&t=sArWgRlckhF5g5MNAmRH0iuD9lUWtt1Ub7uiAysNM6g" width="20"> | Productive | NYC | CTO | August 28, 2017 - May 1, 2019 |
 
 ### Skills
 
@@ -54,7 +62,6 @@ Blog. [blog.ehudadler.com](http://www.blog.ehudadler.com)
 
 |   | Project | Contribution |
 |---|---|---|
-|<img src="https://www.shareicon.net/download/2016/07/08/117368_apple_512x512.png" width="60">| Swift Compiler |  Currently working on SR-8536, helping the compiler warn developers when trying to assign self to itself.|<img style="border-radius: 10px;overflow=hidden" src="https://github.com/Huddie/Siddur/blob/master/Siddur/UI/GenericAppIcon/AppIcon.jpg" width="40">| Simple Siddur | A religious prayer app with a DAU count of 800-900. 
 | <img src="https://github.com/GitHawkApp/GitHawk/raw/master/Resources/Assets.xcassets/splash.imageset/splash%403x.png" width=100>| GitHawk| An open source github client. I've made and continue to make contributions and have participate in code reviews and discussion. 
 
 ##### Projects I've opened sourced
