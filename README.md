@@ -20,10 +20,10 @@ Blog. [blog.ehudadler.com](http://www.blog.ehudadler.com)
 |🔢| Problem Solving |  ☑️ Complete |
 |👨‍💻| Data Structures |  ☑️ Complete |
 |👨‍💻| Theory  of  Computation | ☑️ Complete |
-|👨‍💻| Algorithms | ☐ Enrolled |
-|🔢| Abstract Algebra  | ☐ Enrolled |
-|👨‍💻| Cryptography  | ☐ Enrolled |
-|👨‍💻| Databases  | ☐ Enrolled |
+|👨‍💻| Algorithms | ☑️ Complete |
+|🔢| Abstract Algebra  | ☑️ Complete |
+|👨‍💻| Alg. for Big Data  | ☐ Enrolled |
+|👨‍💻| Databases  |☑️ Complete |
 
 ### Experience
 
