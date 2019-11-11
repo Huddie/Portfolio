@@ -23,7 +23,7 @@ Blog. [blog.ehudadler.com](http://www.blog.ehudadler.com)
 |👨‍💻| Algorithms | ☑️ Complete |
 |🔢| Abstract Algebra  | ☑️ Complete |
 |👨‍💻| Alg. for Big Data  | ☐ Enrolled |
-|👨‍💻| Databases  |☑️ Complete |
+|👨‍💻| Databases  |☐ Enrolled |
 
 ### Experience
 
